@@ -93,7 +93,7 @@ public class CumRetCalculator {
 	}
 
 	/**
-	 * Create sample Map as document example, but put date into map unordered to
+	 * Create sample Map as document example, but I put date into map unordered to
 	 * test TreeMap functionality. In second part to check performance, I add
 	 * more 100000 date by loop which made it incremental one day by one day.
 	 * Thus the last date is 2289/3/25.
@@ -101,7 +101,7 @@ public class CumRetCalculator {
 	 * @return
 	 * @throws ParseException
 	 */
-	public static Map<Date, Double> createMap() throws ParseException {
+	private static Map<Date, Double> createMap() throws ParseException {
 		Map<Date, Double> dailyReturns = new HashMap<>();
 		SimpleDateFormat sf = new SimpleDateFormat("yyyy/M/dd");
 		dailyReturns.put(sf.parse("2015/6/10"), -0.12);
