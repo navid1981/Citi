@@ -121,7 +121,3 @@ public class CumRetCalculator {
 		return dailyReturns;
 	}
 }
-
-class Test {
-
-}
